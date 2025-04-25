@@ -1,18 +1,14 @@
-## Getting Started
+## Pomodoro CLI Timer
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A lightweight, console-based Pomodoro Timer designed for developers and productivity enthusiasts. This tool follows the Pomodoro Technique, allowing you to alternate focused work sessions with short breaks directly from your terminal.
 
-## Folder Structure
+# Features
 
-The workspace contains two folders by default, where:
+1. Customizable Sessions: Set your own work duration (default: 25 minutes).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. Real-time Countdown: Displays time remaining in mm:ss format, refreshing every second.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. Start / Stop / Reset: Control the timer at any moment without restarting the application.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+4. Threaded Execution: Runs the countdown in a separate thread, keeping the menu responsive.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
